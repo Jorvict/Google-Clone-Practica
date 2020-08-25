@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Estilos del header*/
+
+body .header {
+    height: 60px;
+    width: 100%;
+}
+
+body .header .menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body .header .menu .menu-right-section {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+}
+
+body .header .menu .menu-right-section li a {
+    color: black;
+    margin-right: 10px;
+}
+
+body .header .menu .menu-right-section .menu-apps{
+
+    background-image: url("https://i.imgur.com/37rqegm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+}
+
+body .header .menu .menu-right-section .menu-profile-image img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/*Sección media*/
