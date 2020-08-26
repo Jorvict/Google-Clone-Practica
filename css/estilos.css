@@ -69,16 +69,6 @@ body main .logo-center img{
 
 /*Estilos Input Principal*/
 
-body main .input-area .search-icon{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
-    width: 14px;
-    height: 14px ;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: -30px;
-}
-
 body main .input-area{
     /* Espaciado */
     margin: 0 auto;
@@ -98,14 +88,33 @@ body main .input-area:hover{
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
+body main .input-area .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    width: 14px;
+    height: 14px ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 body main .input-area input{
     padding: 0px;
     border: none;
     width: 500px;
     height: 44px;
     outline: none;
+    padding-left: 15px;
+}
+
+body main .input-area .micro-icon{
+    width: 20px;
+    height: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 
 
-/* micro https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png*/
