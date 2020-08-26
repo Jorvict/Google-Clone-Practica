@@ -50,4 +50,20 @@ body .header .menu .menu-right-section .menu-profile-image img{
     margin-left: 10px;
 }
 
-/*Sección media*/
+/*Estilos Logo*/
+
+main{
+    text-align: center;
+}
+
+main .logo-center{
+    margin: 0 auto 0 auto;
+    margin-top: 110px;
+    width: 520px;
+}
+
+main .logo-center img{
+    width: 272px;
+    height: 90px;
+    object-fit: contain;
+}
