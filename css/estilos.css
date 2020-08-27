@@ -74,6 +74,7 @@ body main .input-area{
     margin: 0 auto;
     width: 580px;
     height: 44px;
+    margin-bottom: 30px;
     /*Bordeado*/
     border: 1px solid #e3e5e9;
     border-radius: 24px;
@@ -116,5 +117,27 @@ body main .input-area .micro-icon{
     background-size: contain;
 }
 
+/*Estilos de botones */
 
+main .buttons-area div{
+    display: inline-block;
+}
 
+main .buttons-area div button{
+    width: 160px;
+    height: 36px;
+
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+
+    padding: 0 16px;
+    margin-right: 8px;
+}
+
+main .buttons-area div button:hover{
+    cursor:pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    border-color: #c6c6c6;
+}
